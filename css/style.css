@@ -1,0 +1,484 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial";
+}
+
+.padding-all {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #445161;
+    color: #ffffff;
+}
+
+.main-header-wrp {
+    float: left;
+}
+
+.main-header-title {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.main-header-list {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    list-style-type: none;
+    margin: 0 0 0 40px;
+}
+
+.main-header-img {
+    float: right;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.main-header-list-item {
+    position: relative;
+}
+
+.main-header-list-item:before {
+    content: '';
+    background-image: url(../img/icon_list.png);
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 7px;
+    left: -40px;
+}
+
+.about-product-wrp {
+    float: left;
+    width: 650px;
+}
+
+.about-product-img {
+    float: right;
+}
+
+.about-product-title,
+.pluses-title,
+.scrinshots-title,
+.reviews-title,
+.buy-title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #445161;
+}
+
+.about-product-text1,
+.about-product-text2,
+.pluses-list1,
+.pluses-list2,
+.scrinshots-description-text {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-product-text1 {
+    margin-top: 20px;
+}
+
+.about-product-text2 {
+    margin-top: 10px;
+}
+
+.pluses,
+.reviews {
+    background-color: #f5f5f5;
+}
+
+.pluses-title,
+.scrinshots-title {
+    text-align: center;
+}
+
+.pluses-list1-item,
+.pluses-list2-item {
+    margin: 25px 0 0 0;
+    padding: 0 0 0 40px;
+    position: relative;
+    list-style-type: none;
+}
+
+.pluses-list1 {
+    float: left;
+    width: 567px;
+}
+
+.pluses-list2 {
+    float: right;
+    width: 567px;
+}
+
+.pluses-list1-item:before,
+.pluses-list2-item:before {
+    content: '';
+    background-image: url(../img/plus.png);
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 3px;
+    left: -5px;
+}
+
+.scrinshots-wrp-left {
+    float: left;
+    width: 574px;
+}
+
+.scrinshots-wrp-right {
+    float: right;
+    width: 574px;
+}
+
+.scrinshots-desctiption-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #445161;
+}
+
+.scrinshots-img {
+    float: left;
+}
+
+.scrinshots-description {
+    float: right;
+    width: 349px;
+}
+
+.scrinshots-figure {
+    margin: 20px 0 0 0;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.reviews-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.reviews-item {
+    min-width: 45%;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews-avatar {
+    border-radius: 50%;
+    background-image: url(../img/avatar.png);
+    width: 75px;
+    height: 75px;
+}
+
+.reviews-text {
+    width: 436px;
+    background-color: #ebebeb;
+    position: relative;
+    padding: 15px;
+    border-radius: 7px;
+    margin: 0 0 0 30px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+.reviews-text:before {
+    content: '';
+    border: 13px solid transparent;
+    border-right: 13px solid #ebebeb;
+    position: absolute;
+    top: 25px;
+    left: -25px;
+}
+
+.reviews-author {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #989898;
+    display: block;
+    margin: 5px 0 0 0;
+}
+
+.buy {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.buy-title {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.buy-list {
+    list-style-position: inside;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.buy-type {
+    text-align: center;
+    border: 2px solid #445162;
+    background-color: #445162;
+    color: #fff;
+    border-radius: 7px;
+    margin-right: 45px;
+    width: 300px;
+}
+
+.buy-list {
+    text-align: left;
+}
+
+.buy-price {
+    width: 100%;
+    background-color: #fff;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445162;
+    padding: 15px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.buy-price-title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.buy-button {
+    background-color: #fff;
+    border: 0px solid;
+    border-radius: 7px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #445161;
+    width: 260px;
+    height: 40px;
+    display: flex;
+    margin: 0 auto 20px auto;
+    text-transform: uppercase;
+}
+
+.buy-button:hover {
+    background-color: silver;
+}
+
+.buy-button:active {
+    background-color: grey;
+    color: #000000;
+}
+
+.buy-button>span {
+    margin: auto;
+}
+
+.contacts {
+    background-color: #445162;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contacts-title {
+    width: 100%;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contacts-form {
+    margin: 0 50px 0 0;
+}
+
+.contacts-form input[type="text"],
+.contacts-form input[type="email"],
+.contacts-form textarea {
+    display: block;
+    width: 500px;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.contacts-form input[placeholder],
+.contacts-form textarea[placeholder] {
+    color: #445162;
+}
+
+textarea {
+    resize: none;
+}
+
+.contacts-form input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 7px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #445162;
+    border: 0px solid;
+}
+
+.contacts-form textarea {
+    width: 500px;
+    height: 170px;
+}
+
+.contacts-form input[type="submit"]:hover {
+    background-color: silver;
+}
+
+.contacts-form input[type="submit"]:active {
+    background-color: grey;
+    color: black;
+}
+
+.contacts-link {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.contacts-link-item {
+    display: block;
+    margin: 0 0 25px 25px;
+    position: relative;
+}
+
+.contacts-link-item:last-of-type {
+    margin: 0 0 30px 25px;
+}
+
+.contacts-link-item:before {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-size: 26px;
+    top: 0px;
+    left: -35px;
+    font-weight: 900;
+}
+
+.contacts-link-item-skype:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -35px;
+    width: 26px;
+    height: 26px;
+    background-image: url(../img/skype.png);
+    background-repeat: no-repeat;
+}
+
+.contacts-link-item-icq:before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -35px;
+    width: 26px;
+    height: 26px;
+    background-image: url(../img/icq.png);
+    background-repeat: no-repeat;
+}
+
+.contacts-link-item-email:before {
+    content: '\f0e0';
+}
+
+.contacts-link-item-mobile:before {
+    content: '\f10b';
+}
+
+.contacts-link-net {
+    display: inline-block;
+    background-color: #fff;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    color: #445162;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 40px;
+}
+
+.contacts-form input[type="text"]::placeholder,
+.contacts-form input[type="email"]::placeholder,
+.contacts-form textarea::placeholder {
+    color: #445162;
+    font-family: arial;
+}
+
+.copyright {
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    color: #445162;
+}
